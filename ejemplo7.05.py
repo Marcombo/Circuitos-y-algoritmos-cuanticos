@@ -1,8 +1,8 @@
 import cirq
 import numpy as np
-n = 3
-N = 2**n
-r = N**0.5
+t = 3
+T = 2**t
+r = T**0.5
 a = np.exp(2*np.pi*1j*0.625)
 U = cirq.MatrixGate(np.array([
     [a, 0, 0, 0],
@@ -14,11 +14,11 @@ U = cirq.MatrixGate(np.array([
 CU = U.controlled()
 def QFT_inv():
     matrix = []
-    for j in range(N):
+    for j in range(T):
         row = []
-        for k in range(N):
-            jk = (j*k) % N
-            row = row + [np.exp((-2*np.pi*1j*jk)/N)/r]
+        for k in range(T):
+            jk = (j*k) % T
+            row = row + [np.exp((-2*np.pi*1j*jk)/T)/r]
         matrix = matrix + [row]
     return matrix
 A = np.array(QFT_inv())
