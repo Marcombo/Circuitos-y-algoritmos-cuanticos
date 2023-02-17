@@ -7,31 +7,31 @@ def ToBin(a):
         bin_a = [r] + bin_a
         int_a = int(int_a/2)
     return bin_a
-############################Grove##################################
-import cirq
-import numpy as np
-n = 4
-N = 2**n
-P = 2**(n+1)
-#truth_table = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
-#R = 3
-truth_table = [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0]
-R = 1
-def F(x):
-    acc = 0
-    for i in range(n):
-        acc = acc + x[i]*(2**(n-i-1))
-    return truth_table[acc]
-def Uf():
-    matrix = np.zeros((P,P))
-    for i in range(P):
-        for j in range(P):
+def Uf(n):
+    N = 2**(n+1)
+    matrix = np.zeros((N,N))
+    for i in range(N):
+        for j in range(N):
             bin_i = ToBin(i)
             bin_j = ToBin(j)
             if (bin_j[:n] == bin_i[:n]) and (bin_j[n] == (bin_i[n] + F(bin_i[:n]))%2):
                 matrix[i][j] = 1.
     return matrix    
-uf = cirq.MatrixGate(np.array(Uf()))
+############################Grove##################################
+import cirq
+import numpy as np
+n = 4
+N = 2**n
+truth_table = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+R = 3
+#truth_table = [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+#R = 1
+def F(x):
+    acc = 0
+    for i in range(n):
+        acc = acc + x[i]*(2**(n-i-1))
+    return truth_table[acc]
+uf = cirq.MatrixGate(np.array(Uf(n)))
 def MA():
     matrix = np.zeros((N,N),dtype=complex)
     for k in range(N):

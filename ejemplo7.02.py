@@ -8,7 +8,8 @@ def ToBin(a):
         bin_a = [r] + bin_a
         int_a = int(int_a/2)
     return bin_a
-def Uf():
+def Uf(n):
+    N = 2**(n+1)
     matrix = np.zeros((N,N))
     for i in range(N):
         for j in range(N):
@@ -20,11 +21,11 @@ def Uf():
 ############################Deutsch##################################
 import cirq
 n = 1
-N = 2**(n+1)
 truth_table = [0, 1]
+#truth_table = [1, 1]
 def F(x):
     return truth_table[x[0]]
-UF = cirq.MatrixGate(Uf())
+UF = cirq.MatrixGate(Uf(n))
 q0, q1 = cirq.LineQubit.range(2)
 circuito = cirq.Circuit([cirq.H(q0), cirq.X(q1), cirq.H(q1),UF(q0, q1), cirq.H(q0)])
 circuito.append(cirq.measure(q0))

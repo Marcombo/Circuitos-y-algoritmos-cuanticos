@@ -8,7 +8,8 @@ def ToBin(a):
         bin_a = [r] + bin_a
         int_a = int(int_a/2)
     return bin_a
-def Uf():
+def Uf(n):
+    N = 2**(n+1)
     matrix = np.zeros((N,N))
     for i in range(N):
         for j in range(N):
@@ -18,8 +19,7 @@ def Uf():
                 matrix[i][j] = 1.
     return matrix
 n = 2
-N = 2**(n+1)
 truth_table = [1,0,1,1]
 def F(x):
     return truth_table[2*x[0] + x[1]]
-print(Uf())
+print(Uf(n))
