@@ -4,8 +4,8 @@ Repositorio del libro "Computación cuántica: circuitos y algoritmos" publicado
 
 En este repositorio se publican todos los archivos fuente asociados a los ejemplos presentados en el libro. Han sido generados y ejecutados utilizando el entorno de desarrollo IDLE para Python y la biblioteca Cirq creada por Google para la descripcion y simulación de circuitos cuánticos.
 
-Se incluyen también soluciones para algunos de los ejercicios propuestos en el libro.
+Se incluyen también soluciones para algunos de los ejercicios propuestos en el libro. 
 
-Desde luego este repositorio puede servir de medio de comunicación entre los lectores y el autor.
+En el futuro será uno de los medios de comunicación entre el autor y los lectores, por ejemplo para la resolución de ejercicios y la corrección de errores y errata. 
 
 Jean-Pierre Deschamps, Junio 2023
