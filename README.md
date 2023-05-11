@@ -1,7 +1,11 @@
-# Circuitos-y-algoritmos-cuanticos
-Repositorio del libro de Marcombo "Circuitos y algoritmos cuánticos".
-En este repositorio se publican todos los archivos fuente del libro "Circuitos y Algoritmos Cuánticos" de la editorial Marcombo. 
-Esos archivos han sido generados y ejecutados utilizando el entorno de desarrollo IDLE para Python creado por Guido van Rossum. 
-En esos archivos se utiliza la biblioteca Cirq creada por Google para la descripcion y simulación de circuitos cuánticos.
+# Computación cuántica: circuitos y algoritmos
 
-Jean-Pierre Deschamps, Diciembre 2022
+Repositorio del libro "Computación cuántica: circuitos y algoritmos" publicado por la editorial Marcombo.
+
+En este repositorio se publican todos los archivos fuente asociados a los ejemplos presentados en el libro. Han sido generados y ejecutados utilizando el entorno de desarrollo IDLE para Python y la biblioteca Cirq creada por Google para la descripcion y simulación de circuitos cuánticos.
+
+Se incluyen también soluciones para algunos de los ejercicios propuestos en el libro.
+
+Desde luego este repositorio puede servir de medio de comunicación entre los lectores y el autor.
+
+Jean-Pierre Deschamps, Junio 2023
