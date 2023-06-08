@@ -6,6 +6,7 @@ En este repositorio se publican todos los archivos fuente asociados a los ejempl
 
 Se incluyen también soluciones para algunos de los ejercicios propuestos en el libro. 
 
-En el futuro será uno de los medios de comunicación entre el autor y los lectores, por ejemplo para la resolución de ejercicios y la corrección de errores y errata. 
+En el futuro será uno de los medios de comunicación entre el autor y los lectores, por ejemplo, para la resolución de ejercicios y la corrección de errores y errata. Otro medio de comunicación es el siguiente correo electrónico: 
+jeanpierre.deschamps@iubilo.urv.cat
 
 Jean-Pierre Deschamps, Junio 2023
