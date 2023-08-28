@@ -2,7 +2,7 @@
 
 Repositorio asociado a 
 
-[1] J.P.Deschamps, Computación Cuántica, Marcombo, Barcelona, 2023.
+[1] J.P.Deschamps, Computación Cuántica: circuitos y algoritmos, Marcombo, Barcelona, 2023.
 
 En este repositorio se publican todos los archivos fuente asociados a los ejemplos presentados en [1]. Han sido generados y ejecutados utilizando el entorno de desarrollo IDLE para Python y la biblioteca Cirq creada por Google para la descripcion y simulación de circuitos cuánticos.
 
