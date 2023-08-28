@@ -13,4 +13,5 @@ En el futuro será uno de los medios de comunicación entre el autor y los lecto
 Otro medio de comunicación es el siguiente correo electrónico: jeanpierre.deschamps@iubilo.urv.cat
 
 NOTAS PUBLICADAS:
+
 1 Circuitos combunacionales
