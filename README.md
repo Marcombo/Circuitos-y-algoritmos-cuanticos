@@ -15,3 +15,5 @@ Otro medio de comunicación es el siguiente correo electrónico: jeanpierre.desc
 NOTAS PUBLICADAS:
 
 1 Circuitos combinacionales
+2 QRAM y QDAC
+3 Algoritmo HHL
