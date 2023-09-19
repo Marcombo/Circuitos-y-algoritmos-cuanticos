@@ -1,4 +1,3 @@
-#######CLASE QFA##########
 import cirq
 class QCC(cirq.Gate):
     def __init__(self):
@@ -43,7 +42,7 @@ n = 4
 c = 1
 x = [0,1,0,1]
 y = [1,0,1,1]
-#########CIRCUITOS#########
+#########CIRCUITO#########
 reg = cirq.LineQubit.range(3*n+1)
 circuito = cirq.Circuit()
 if c == 1:
@@ -59,8 +58,7 @@ for i in range(n-1):
     circuito.append(qs(reg[3*(n-1-i)],reg[3*(n-1-i)+1],reg[3*(n-1-i)+2]))
     circuito.append(qccAd(reg[3*(n-2-i)],reg[3*(n-2-i)+1],reg[3*(n-2-i)+2],reg[3*(n-2-i)+3]))
 circuito.append(qs(reg[0],reg[1],reg[2]))
-
-###########RESULTADO########
+###########MEDICIONES########
 for i in range(n-1):
     circuito.append(cirq.measure(reg[3*i+3]))
 for i in range(n):

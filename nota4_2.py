@@ -1,4 +1,3 @@
-#######CLASE QFA##########
 import cirq
 class CY(cirq.Gate):
     def __init__(self):
@@ -31,7 +30,7 @@ n = 5
 c = 1
 x = [0,1,0,0,1]
 y = [1,0,0,1,1]
-#########CIRCUITOS#########
+#########CIRCUITO#########
 reg = cirq.LineQubit.range(2*n+2)
 circuito = cirq.Circuit()
 if c == 1:
@@ -45,7 +44,7 @@ for i in range(n):
 circuito.append(cirq.CX(reg[2*n],reg[2*n+1]))
 for i in range(n):
     circuito.append(xor(reg[2*(n-1-i)],reg[2*(n-1-i)+1],reg[2*(n-1-i)+2]))
-###########RESULTADO########
+###########MEDICIONES########
 for i in range(n+1):
     circuito.append(cirq.measure(reg[2*i+1]))
 print(circuito)
