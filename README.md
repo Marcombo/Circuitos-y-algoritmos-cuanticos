@@ -21,3 +21,5 @@ NOTAS PUBLICADAS:
 3 Algoritmo HHL
 
 4 Sumadores
+
+5 Aritmética basada en la QFT
