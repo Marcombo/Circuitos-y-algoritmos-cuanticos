@@ -23,3 +23,5 @@ NOTAS PUBLICADAS:
 4 Sumadores
 
 5 Aritmética basada en la QFT
+
+6 Multiplicador
