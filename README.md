@@ -25,3 +25,5 @@ NOTAS PUBLICADAS:
 5 Aritmética basada en la QFT
 
 6 Multiplicador
+
+7 Descomposición CS de matrices
