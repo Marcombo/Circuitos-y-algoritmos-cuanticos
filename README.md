@@ -27,3 +27,6 @@ NOTAS PUBLICADAS:
 6 Multiplicador
 
 7 Descomposición CS de matrices
+
+8 Divisor
+
