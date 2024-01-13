@@ -30,3 +30,6 @@ NOTAS PUBLICADAS:
 
 8 Divisor
 
+Summaries of some chapters will be published, addressed to people who have difficulty reading in Spanish:
+
+CHAPTER 2
