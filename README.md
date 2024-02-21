@@ -30,6 +30,8 @@ NOTAS PUBLICADAS:
 
 8 Divisor
 
+9 Digital emulation of a quantum circuit
+
 Summaries of some chapters will be published, addressed to people who have difficulty reading in Spanish:
 
 CHAPTER 2
