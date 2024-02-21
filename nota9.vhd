@@ -260,8 +260,7 @@ BEGIN
    Next_S(2) <= S(2) ; Next_T(2) <= T(2);     
    Next_S(3) <= S(3) ; Next_T(3) <= T(3);
    Next_S(4) <= S(4) ; Next_T(4) <= T(4);     
-   --Next_S(6) <= -T(6) ; Next_T(6) <= S(6); 
-Next_S(6) <= S(6) ; Next_T(6) <= T(6); 
+   Next_S(6) <= -T(6) ; Next_T(6) <= S(6); 
    S5 <= S(5)-T(5) ; T5 <= S(5) + T(5); 
    component1: FP_MUL PORT MAP (S5, inv_sqrt_2, Next_S(5));
    component2: FP_MUL PORT MAP (T5, inv_sqrt_2, Next_T(5));
