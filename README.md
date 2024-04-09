@@ -30,7 +30,9 @@ NOTAS PUBLICADAS:
 
 8 Divisor
 
-9 Digital emulation of a quantum circuit
+9 Digital emulation of 3-qubit quantum circuits
+
+10 Digital emulation of quantum circuit, TR1
 
 Summaries of some chapters will be published, addressed to people who have difficulty reading in Spanish:
 
