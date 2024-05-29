@@ -34,6 +34,8 @@ NOTAS PUBLICADAS:
 
 10 Digital emulation of quantum circuit, TR1
 
+11 Digital emulation of quantum circuit, TR2
+
 Summaries of some chapters, addressed to people who have difficulty reading in Spanish:
 
 CHAPTER 2
